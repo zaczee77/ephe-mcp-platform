@@ -10,7 +10,7 @@ The problem it solves is simple to state and hard to live with. Agent demos are 
 
 ## Why I built it
 
-I built ephe after shipping production LLM products and learning where the real cost sits. At Concordia Pharma I shipped PharmFlows, a set of LLM workflows that cut operational errors by 80 percent and cycle time by 30 percent. I also built the Paxei MVP, which used EHR sandbox APIs to cut prior authorization prep from 45 minutes to 10 minutes. In the same body of work, SQL anomaly detection cut fraud by 35 percent.
+I built ephe after shipping production LLM products and learning where the real cost sits. At Concordia Pharma I shipped PharmFlows, a set of LLM workflows that cut serving time errors by 86 percent and cycle time by 30 percent. I also built the Paxei MVP, which used EHR sandbox APIs to cut prior authorization prep from 45 minutes to 10 minutes. In the same body of work, SQL anomaly detection cut fraud by 35 percent.
 
 Those projects taught me that model quality is only part of the story. The surrounding system decides whether a workflow survives contact with real users. Tool contracts, context discipline, failure handling, and evals are product work. I founded Zeinloop, a compliance SaaS product, and that founder experience reinforced the same lesson from the business side. A feature is not done when it works once. It is done when a team can operate it, explain it, and improve it.
 
